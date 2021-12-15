@@ -1,0 +1,52 @@
+/*
+Theme Name: Twenty Sixteen Child
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Template: twentysixteen
+Author: Kimi Korpela
+Author URI: https://wordpress.org/
+Description: Child theme of the Twenty Sixteen theme
+Version: 1.1.1639577834
+Updated: 2021-12-15 14:17:14
+
+*/
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+}
+
+
+
+
+.grid-item h3{
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.grid-item p {
+	color:black;
+	line-height: 1.4;
+	
+}
+
+.grid-item a {
+	background: #1a1a1a;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Montserrat, "Helvetica 		Neue", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.84375em 0.875em 0.78125em;
+    text-transform: uppercase;
+    margin-left: 65px;
+	
+}
+
+.grid-item {
+	background: lightblue;
+	padding: 20px;
+}
